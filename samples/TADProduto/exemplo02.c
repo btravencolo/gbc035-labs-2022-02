@@ -6,7 +6,7 @@ int main(){
    int qtd_estoque1,qtd_estoque2,qtd_estoque3,qtd_estoque4;
 
 
-   printf("\nInformeo preco o nome,  e a qtd. em estoque do produto 1:\n");
+   printf("\nInforme o preco o nome,  e a qtd. em estoque do produto 1:\n");
    scanf("%s",nome1);
    scanf("%f",&preco1);
    scanf("%d",&qtd_estoque1);
