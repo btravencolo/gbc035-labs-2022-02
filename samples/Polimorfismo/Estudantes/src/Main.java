@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         Estudante e = new Estudante("Carlos","Rua 1o de Abril");
+
         EstudanteGraduacao eg = new EstudanteGraduacao("Maria", "Rua Maio", "Java is funny");
         EstudantePosGrad ep = new EstudantePosGrad("Ailton","Rua 31 de fevereiro","Engenharia",
                 "Banco de Dados");

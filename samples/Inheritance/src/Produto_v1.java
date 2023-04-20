@@ -1,10 +1,10 @@
-public class Produto {
-    int codigo;
-    String nome;
-    String fabricante;
-    double preco;
+public class Produto_v1 {
+    private int codigo;
+    private String nome;
+    private String fabricante;
+    private double preco;
 
-    public Produto(int codigo, String nome, String fabricante) {
+    public Produto_v1(int codigo, String nome, String fabricante) {
         this.codigo = codigo;
         this.nome = nome;
         this.fabricante = fabricante;
