@@ -7,10 +7,6 @@ public class Estudante {
         this.endereco = endereco;
     }
 
-    public void vestir(Roupa roupa){
-        r = roupa;
-    }
-
     public void print() {
         System.out.println("Estudante{" +
                 "nome='" + nome + '\'' +

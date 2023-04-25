@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+
 public class ProdutoPerecivel_v1 {
     private int codigo;
     private String nome;
