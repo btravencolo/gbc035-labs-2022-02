@@ -42,19 +42,23 @@ public class Main {
         // exemplo de uso com vetor e com CAST
         Estudante[] ev = new Estudante[4];
         ev[0] = eg;
+        eg.print();
+        eg.getTituloTCC();
+        ev[0].print();;
         String x = ((EstudanteGraduacao) ev[0]).getTituloTCC();
+        String x2 = ((EstudantePosGrad) ev[0]).getFormacao();
 
 
-/*
+
         e2.print();
+        eg2.print();
         epd2.print();
         ep2.print();
         epd2.print();
-        EstudanteDoutorado epd3;
-        epd3 = (EstudanteDoutorado)epd2;
-        System.out.println(epd3.getTituloTese());
-        System.out.println(((EstudanteDoutorado)epd2).getTituloTese());
-*/
+     //   EstudanteDoutorado epd3;
+      //  epd3 = (EstudanteDoutorado)epd2;
+       // System.out.println(epd3.getTituloTese());
+       // System.out.println(((EstudanteDoutorado)epd2).getTituloTese());
 
 /*
         eg2.print();

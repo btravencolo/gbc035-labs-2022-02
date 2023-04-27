@@ -7,6 +7,7 @@ public class EstudanteGraduacao extends Estudante {
     }
 
     public void print() {
+        super.print();
         System.out.println("EstudanteGraduacao{" +
                 "tituloTCC='" + tituloTCC + '\'' +
                 '}');
